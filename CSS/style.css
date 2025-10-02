@@ -58,6 +58,12 @@ section{
     height: 100%;
 }
 
+article{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
 .info{
     padding: 3rem;
 }
@@ -78,7 +84,7 @@ section{
     padding-left: 3rem;
     display: grid;
     align-items: center;
-    grid-template: repeat(2, 1fr) / 6rem 18rem 6rem;
+    grid-template: repeat(2, 1fr) / 6rem 1fr 7rem;
 }
 
 .avatar{

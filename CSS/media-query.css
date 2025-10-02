@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+    main{
+        width: 80vw;
+        height: 30rem;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .image{
+        height: 100%;
+    }
+
+    article{
+        gap: 2rem;
+    }
+
+    .info{
+        margin-top: -3rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+    main{
+        width: 55vw;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    main{
+        width: 40vw;
+    }
+
+    .image{
+        width: 70%;
+    }
+}
