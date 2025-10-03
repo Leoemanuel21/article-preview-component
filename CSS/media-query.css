@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 768px){
     main{
-        width: 80vw;
+        width: 70rem;
         height: 30rem;
         display: flex;
         flex-flow: row nowrap;
@@ -24,16 +24,6 @@
 
 @media screen and (min-width: 1024px){
     main{
-        width: 55vw;
-    }
-}
-
-@media screen and (min-width: 1440px){
-    main{
-        width: 40vw;
-    }
-
-    .image{
-        width: 70%;
+        width: 80rem;
     }
 }
