@@ -20,10 +20,48 @@
         margin-top: -3rem;
     }
 
+    .profile-share{
+        position: absolute;
+        width: 22rem;
+        left: 54rem;
+        top: 39rem;
+        border-radius: 1rem;
+    }
+
+    .profile-share .share{
+        display: none;
+    }
+
 }
 
 @media screen and (min-width: 1024px){
     main{
         width: 80rem;
+    }
+
+    .profile-share{
+        position: absolute;
+        width: 28rem;
+        left: 69rem;
+        top: 38rem;
+        border-radius: 1rem;
+    }
+
+    .profile-share .share{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .profile-share{
+        position: absolute;
+        width: 28rem;
+        left: 115rem;
+        top: 46rem;
+        border-radius: 1rem;
+    }
+
+    .profile-share .share{
+        display: none;
     }
 }
